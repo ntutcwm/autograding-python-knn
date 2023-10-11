@@ -13,6 +13,8 @@ Upon receiving a new ipute data, KNN searches the training data and finds the K 
 
 3. Count the majority class of the K nearest neighbors. Report them as predictions.
 
+Reference: [kNN Classifier from Scratch (numpy only)](https://nycdatascience.com/blog/student-works/machine-learning/knn-classifier-from-scratch-numpy-only/) 
+
 ## Train/Test Data
 
 The data are stored in the [data](./data) folder. The labels are saved in the last column.
