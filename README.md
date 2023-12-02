@@ -21,4 +21,4 @@ The data are stored in the [data](./data) folder. The labels are saved in the la
 
 ## Auto-grading
 
-PyTest will be used to run [KNN_test.py](./KNN_test.py) to evaluate your model. Please do not modify the file.
+PyTest will be used to run [knn_test.py](./knn_test.py) to evaluate your model. Please do not modify this file.
