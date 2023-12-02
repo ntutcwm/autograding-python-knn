@@ -1,6 +1,6 @@
 # Homework: Building a KNN Classifier
 
-K Nearest Neighbor (KNN) is a simple and effective algorithm. In this homework, we will implement a simple KNN classifier and use it classify Iris flower data. 
+K Nearest Neighbor (KNN) is a simple and effective algorithm. In this homework, we will implement a simple KNN classifier and use it to classify Iris flower data. 
 
 ## K Nearest Neighbor (KNN)
 
@@ -21,4 +21,4 @@ The data are stored in the [data](./data) folder. The labels are saved in the la
 
 ## Auto-grading
 
-PyTest will be used to test your model. 
+PyTest will be used to run [KNN_test.py](./KNN_test.py) to evaluate your model. Please do not modify the file.
