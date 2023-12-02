@@ -34,4 +34,5 @@ def test_knn_distances():
     
     indices, distances = knn_calc_dists(train_data, test_data, K)
     
+    assert np.sum(distances) != 0
     assert sum(distances.shape) == len(test_data) + K

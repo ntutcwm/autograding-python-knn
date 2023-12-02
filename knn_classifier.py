@@ -22,8 +22,8 @@ def knn_calc_dists(xTrain, xTest, k):
         dists = distances between xTrain/xTest points. Size of n x m
         indices = kxm matrix with indices of yTrain labels
     """
-    indices = np.random.rand(xTrain.shape[0], xTest.shape[0])
-    distances = np.random.rand(xTrain.shape[0], xTest.shape[0])
+    indices = np.zeros([xTrain.shape[0], xTest.shape[0]])
+    distances = np.zeros([xTrain.shape[0], xTest.shape[0]])
     return indices[0:k, : ], distances[0:k, : ]
 
 def knn_predict(xTrain, yTrain, xTest, k=3):
