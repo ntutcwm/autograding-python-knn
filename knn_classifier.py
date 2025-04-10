@@ -44,7 +44,8 @@ def knn_predict(xTrain, yTrain, xTest, k=3):
     predictions = []
 
     # 對於每個測試樣本，選擇 K 個最近鄰並進行投票
-    for i in rdfsaors = yTrain[indices[:, i]]  # 獲取 K 個鄰居的標籤
+    for i in range(indices.shape[1]):
+        neighbors = yTrain[indices[:, i]]  # 獲取 K 個鄰居的標籤
         most_common = Counter(neighbors.flatten()).most_common(1)  # 找到最常見的標籤
         predictions.append(most_common[0][0])
 
