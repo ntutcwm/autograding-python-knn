@@ -48,7 +48,7 @@ def knn_predict(xTrain, yTrain, xTest, k=3):
         predictions.append(most_common[0][0])
 
     return np.array(predictions)
-
+fdsfdsafd
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="K Nearest Neighbor Classifier")
